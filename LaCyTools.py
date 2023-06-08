@@ -72,7 +72,7 @@ CHARGE_CARRIER = ['proton']     # The charge carrier that is used for ionization
 EXTRACTION_TYPE = 2             # 1 = Max, 0 = Total and 2 = Area
 MASS_WINDOW = 0.2               # The +/- m/z window used around each feature for extraction
 TIME_WINDOW = 8                 # The +/- time window that will be used around a cluster, to create the sum spectrum
-EXTRACTION_PADDING = 2          # total number of additional windows to be examined and quantified (for IPQ)
+EXTRACTION_PADDING = 0          # total number of additional windows to be examined and quantified (for IPQ)
 MIN_CHARGE = 2                  # The minimum charge state that the program will integrate for all features (unless overwritten in the composition file)
 MAX_CHARGE = 3                  # The maximum charge state that the program will integrate for all features (unless overwritten in the composition file)
 #MIN_CONTRIBUTION = 0.01        # Minimum contribution to isotopic distribution to be included (NOT BEING USED ATM)
